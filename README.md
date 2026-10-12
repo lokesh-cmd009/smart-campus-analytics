@@ -24,8 +24,6 @@ Higher education institutions capture rich telemetry across examination cells, b
 ```
 smart-campus-analytics/
 ├── dashboard.html                      # Interactive standalone dashboard (zero-dependency, opens in any browser)
-├── presentation_deck.html              # 11-slide interactive presentation deck with keyboard navigation
-├── PRESENTATION_DECK.md                # Presentation script & slide outline
 ├── STUDENT_SUCCESS_SCORE_METHODOLOGY.md # Mathematical formulation & tier thresholds note
 ├── campus_analytics.db                 # SQLite database containing full 1,500 cohort records & tables
 ├── build_dashboard.py                  # Build script compiling SQLite data into standalone dashboard
@@ -68,17 +66,7 @@ start dashboard.html
 
 ---
 
-### Option 2: Interactive Pitch & Presentation Deck
-Open `presentation_deck.html` in any browser:
-```bash
-open presentation_deck.html
-```
-- Navigate using keyboard arrow keys (`←` / `→`) or on-screen buttons.
-- 11 slides detailing the KPMG in India challenge, data integration, dual ML models, personas, XAI, attendance forecaster, mentorship videos, and institutional ROI.
-
----
-
-### Option 3: Run via Full-Stack FastAPI Web Application (Optional)
+### Option 2: Run via Full-Stack FastAPI Web Application (Optional)
 If you wish to run the dynamic REST API backend:
 
 1. **Clone the repository and enter the directory**:
@@ -111,6 +99,5 @@ If you wish to run the dynamic REST API backend:
 | **Success Score & Risk Identification** | 25% | `data_pipeline.py` & `STUDENT_SUCCESS_SCORE_METHODOLOGY.md` defining the 3S Index with dual Scikit-Learn predictive classifiers. |
 | **Dashboard & Visualization** | 25% | `dashboard.html` & `app.py` delivering executive KPIs, student 360° dossiers, radar charts, and triage worklists. |
 | **Problem Understanding** | 10% | Fully grounded in Indian engineering campus realities: 75% attendance condonation rule, university backlogs, and campus hiring patterns. |
-| **Presentation & Demo** | 10% | `presentation_deck.html` (interactive 11-slide deck) and `PRESENTATION_DECK.md` pitch script. |
 | **Bonus: Student Segmentation** | +5% | 4 strategic personas via K-Means clustering, featuring the "Academic Stars with Practical Gaps" segment. |
 | **Bonus: Explainable AI** | +5% | Local driver impact analysis isolating top positive catalysts vs. negative drags relative to population norms. |
