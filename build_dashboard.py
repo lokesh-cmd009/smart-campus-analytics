@@ -380,7 +380,7 @@ html_markup = '''<!DOCTYPE html>
         <div class="space-y-3 text-xs">
           <div>
             <label class="block font-semibold text-slate-700 mb-1">Username / Hall Ticket / Email</label>
-            <input type="text" id="login-identifier" placeholder="e.g. Sravan Kumar, 22071A0501, Sai Teja, Vamshi, or admin" 
+            <input type="text" id="login-identifier" placeholder="e.g. Lokesh Kumar, 22071A0501, Sai Teja, Vamshi, or admin" 
                    class="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
                    onkeydown="if(event.key==='Enter') handleLoginSubmit()">
           </div>
@@ -414,10 +414,10 @@ html_markup = '''<!DOCTYPE html>
               <span class="px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-bold text-[10px]">Faculty</span>
             </button>
             
-            <!-- Student 1: Sravan Kumar -->
-            <button type="button" onclick="loginPreset('sravan')" class="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900/60 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-slate-200 dark:border-slate-800 flex items-center justify-between text-left transition cursor-pointer">
+            <!-- Student 1: Lokesh Kumar -->
+            <button type="button" onclick="loginPreset('lokesh')" class="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900/60 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-slate-200 dark:border-slate-800 flex items-center justify-between text-left transition cursor-pointer">
               <div>
-                <span class="font-bold block text-slate-900 dark:text-slate-100">Sravan Kumar (Student: High Achiever)</span>
+                <span class="font-bold block text-slate-900 dark:text-slate-100">Lokesh Kumar (Student: High Achiever)</span>
                 <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-semibold">HT: 22071A0501 · CSE Yr 3 · CGPA 8.92 · 88.5% Att. (Tier-1 MNC)</span>
               </div>
               <span class="px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 font-bold text-[10px]">Student</span>
@@ -2797,12 +2797,12 @@ Enter new cumulative attendance percentage (0 - 100):`, student.overall_attendan
       }
 
       // Benchmark student fast-match
-      if (ident === 'sravan' || ident === 'sravankumar' || ident.includes('sravan@') || ident === '22071a0501' || ident === 'stu22071a0501') {
+      if (ident === 'lokesh' || ident === 'lokeshkumar' || ident.includes('lokesh@') || ident === '22071a0501' || ident === 'stu22071a0501') {
         if (pwd !== 'student123' && pwd !== 'admin123') {
-          alert("Authentication Failed: Incorrect password for Sravan Kumar. (Default password: student123 or admin123).");
+          alert("Authentication Failed: Incorrect password for Lokesh Kumar. (Default password: student123 or admin123).");
           return;
         }
-        loginPreset('sravan');
+        loginPreset('lokesh');
         return;
       }
       if (ident === 'saiteja' || ident === 'sai teja' || ident.includes('saiteja@') || ident === '22071a0502' || ident === 'stu22071a0502') {
@@ -2853,8 +2853,8 @@ Enter new cumulative attendance percentage (0 - 100):`, student.overall_attendan
       } else if (preset === 'faculty') {
         currentUser = { role: 'faculty', full_name: 'Prof. K. Venkat Rao', title: 'HOD - Computer Science' };
         launchAdminPortal();
-      } else if (preset === 'sravan') {
-        const s = window.EMBEDDED_STUDENTS.find(x => x.hall_ticket_no === '22071A0501' || x.student_id === 'STU22071A0501' || x.name === 'Sravan Kumar') || window.EMBEDDED_STUDENTS[0];
+      } else if (preset === 'lokesh') {
+        const s = window.EMBEDDED_STUDENTS.find(x => x.hall_ticket_no === '22071A0501' || x.student_id === 'STU22071A0501' || x.name === 'Lokesh Kumar') || window.EMBEDDED_STUDENTS[0];
         launchStudentPortal(s);
       } else if (preset === 'saiteja' || preset === 'student_gaps') {
         const s = window.EMBEDDED_STUDENTS.find(x => x.hall_ticket_no === '22071A0502' || x.student_id === 'STU22071A0502' || x.name === 'Sai Teja Reddy') || window.EMBEDDED_STUDENTS.find(x => x.name.toLowerCase().includes('saiteja') || x.name.toLowerCase().includes('sai teja')) || window.EMBEDDED_STUDENTS[1];
@@ -2863,7 +2863,7 @@ Enter new cumulative attendance percentage (0 - 100):`, student.overall_attendan
         const s = window.EMBEDDED_STUDENTS.find(x => x.hall_ticket_no === '22071A0503' || x.student_id === 'STU22071A0503' || x.name === 'Vamshi Goud') || window.EMBEDDED_STUDENTS.find(x => x.name.toLowerCase().includes('vamshi')) || window.EMBEDDED_STUDENTS[2];
         launchStudentPortal(s);
       } else if (preset === 'student_achiever') {
-        const s = window.EMBEDDED_STUDENTS.find(x => x.hall_ticket_no === '22071A0501' || x.name === 'Sravan Kumar') || window.EMBEDDED_STUDENTS[0];
+        const s = window.EMBEDDED_STUDENTS.find(x => x.hall_ticket_no === '22071A0501' || x.name === 'Lokesh Kumar') || window.EMBEDDED_STUDENTS[0];
         launchStudentPortal(s);
       } else {
         const s = window.EMBEDDED_STUDENTS[0];

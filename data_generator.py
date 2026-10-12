@@ -39,7 +39,7 @@ SECTIONS = ["A", "B", "C"]
 GENDERS = ["Male", "Female"]
 
 MALE_NAMES = [
-    "Sai Teja", "Sravan", "Vamshi", "Karthik", "Prashanth", "Akhil", "Manoj", "Rahul", "Srikar",
+    "Sai Teja", "Lokesh", "Vamshi", "Karthik", "Prashanth", "Akhil", "Manoj", "Rahul", "Srikar",
     "Sandeep", "Vikram", "Tarun", "Naveen", "Abhinav", "Aditya", "Bharath", "Charan", "Dinesh",
     "Ganesh", "Harish", "Jayanth", "Kishore", "Lokesh", "Mahesh", "Nikhil", "Pavan", "Rakesh",
     "Surya", "Varun", "Yashwanth", "Anirudh", "Rohit", "Hemanth", "Chaitanya", "Shiva", "Siddharth",
