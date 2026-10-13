@@ -26,7 +26,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 app = FastAPI(
     title="Smart Campus Analytics - AI Student Success Platform",
     description="Enterprise predictive intelligence and intervention engine with SQLite & RBAC.",
-    version="1.2.0"
+    version="1.2.0",
+    contact={
+        "name": "Lokesh Kumar",
+        "url": "https://github.com/lokesh-cmd009/smart-campus-analytics",
+        "email": "lokesh@campus.edu.in"
+    }
 )
 
 app.add_middleware(

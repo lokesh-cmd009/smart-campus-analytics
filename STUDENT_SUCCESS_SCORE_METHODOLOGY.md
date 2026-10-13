@@ -1,6 +1,7 @@
 # Student Success Score (3S Index) Methodology Note
 **Analytics & AI-Powered Student Success Platform**  
-*Prepared for KPMG in India Challenge — Smart Campus Analytics*
+*Prepared for KPMG in India Challenge — Smart Campus Analytics*  
+*Author & Chief Architect: **Lokesh Kumar** ([@lokesh-cmd009](https://github.com/lokesh-cmd009))*
 
 ---
 
@@ -211,3 +212,12 @@ The platform moves beyond descriptive visualization to provide **prescriptive an
 | **Presentation & Demo** | 10% | Interactive browser dashboard, executive slide deck, and comprehensive architectural documentation. |
 | **Bonus: Student Segmentation** | Bonus Credit | K-Means clustering into 4 strategic personas, explicitly surfacing the "High Academic but Low Placement Readiness" segment. |
 | **Bonus: Explainable Score** | Bonus Credit | Local feature driver attribution showing positive catalysts vs. negative drags relative to population norms. |
+
+---
+
+## 9. Author & Project Metadata
+- **Lead Developer & System Architect**: Lokesh Kumar
+- **GitHub**: [@lokesh-cmd009](https://github.com/lokesh-cmd009)
+- **Repository**: [https://github.com/lokesh-cmd009/smart-campus-analytics](https://github.com/lokesh-cmd009/smart-campus-analytics)
+- **Institutional Email**: lokesh@campus.edu.in
+- **Cohort Roll No.**: 22071A0501 (Computer Science & Engineering)

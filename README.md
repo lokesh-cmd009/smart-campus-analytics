@@ -1,6 +1,7 @@
 # Smart Campus Analytics: Predict, Optimize & Improve Student Success
 **AI-Powered Higher Education Decision Intelligence & Student Success Platform**  
-*Built for the KPMG in India Hackathon / Case Challenge*
+*Built for the KPMG in India Hackathon / Case Challenge*  
+*Developed & Maintained by **Lokesh Kumar** ([@lokesh-cmd009](https://github.com/lokesh-cmd009))*
 
 ---
 
@@ -101,3 +102,22 @@ If you wish to run the dynamic REST API backend:
 | **Problem Understanding** | 10% | Fully grounded in Indian engineering campus realities: 75% attendance condonation rule, university backlogs, and campus hiring patterns. |
 | **Bonus: Student Segmentation** | +5% | 4 strategic personas via K-Means clustering, featuring the "Academic Stars with Practical Gaps" segment. |
 | **Bonus: Explainable AI** | +5% | Local driver impact analysis isolating top positive catalysts vs. negative drags relative to population norms. |
+
+---
+
+## 👨‍💻 Author & Maintainer Profile
+
+| Detail | Information |
+| :--- | :--- |
+| **Lead Developer & Architect** | **Lokesh Kumar** |
+| **GitHub Profile** | [@lokesh-cmd009](https://github.com/lokesh-cmd009) |
+| **GitHub Repository** | [smart-campus-analytics](https://github.com/lokesh-cmd009/smart-campus-analytics) |
+| **Email** | `lokesh@campus.edu.in` |
+| **Department / Major** | Computer Science & Engineering (CSE) |
+| **Hall Ticket / Roll No.** | `22071A0501` |
+| **Role & Specialization** | AI Systems Engineering, Decision Intelligence & Full-Stack Platform Development |
+
+---
+
+## 📄 License
+This project is licensed under the MIT License — see the repository for details.
